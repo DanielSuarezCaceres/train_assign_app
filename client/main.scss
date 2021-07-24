@@ -1,0 +1,58 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+$body-color: gray;
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+.main-container {
+  width: 100%;
+}
+
+.cards-container {
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-body {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  min-height: 12.5rem;
+  //max-height: 8rem;
+  //overflow: scroll;
+}
+
+.card-body-clients {
+  height: 8rem;
+  max-height: 8rem;
+}
+
+@media screen and (max-width: 768px) {
+  .cards-container {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.div-tab-graphics {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-chart {
+  width: 300px;
+  height: 300px;
+  margin: 5rem;
+}
